@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/navigation_task1">
+
+    <fragment
+        android:id="@+id/navigation_task1"
+        android:name="com.example.gigsmediatask.ui.Task1Fragment"
+        android:label="@string/title_task1"
+        tools:layout="@layout/fragment_task1" />
+
+    <fragment
+        android:id="@+id/navigation_task2"
+        android:name="com.example.gigsmediatask.ui.Task2Fragment"
+        android:label="@string/title_task2"
+        tools:layout="@layout/fragment_task2">
+        <action
+            android:id="@+id/action_navigation_task2_to_navigation_update"
+            app:destination="@id/navigation_update" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_task3"
+        android:name="com.example.gigsmediatask.ui.Task3Fragment"
+        android:label="@string/title_task3"
+        tools:layout="@layout/fragment_task3" />
+
+    <fragment
+        android:id="@+id/navigation_task4"
+        android:name="com.example.gigsmediatask.ui.Task4Fragment"
+        android:label="@string/title_task4"
+        tools:layout="@layout/fragment_task4" />
+    <fragment
+        android:id="@+id/navigation_update"
+        android:name="com.example.gigsmediatask.ui.UpdateFragment"
+        android:label="UpdateFragment"
+        tools:layout="@layout/fragment_update" >
+
+        <argument
+            android:name="id"
+            android:defaultValue="0"
+            app:argType="integer" />
+
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="mobileNo"
+            app:argType="string" />
+        <argument
+            android:name="bookName"
+            app:argType="string" />
+
+    </fragment>
+
+
+</navigation>

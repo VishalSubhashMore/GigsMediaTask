@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_task1"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Task1" />
+    <item
+        android:id="@+id/navigation_task2"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Task2" />
+    <item
+        android:id="@+id/navigation_task3"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Task3" />
+    <item
+        android:id="@+id/navigation_task4"
+        android:icon="@drawable/about"
+        android:title="Task4" />
+
+
+</menu>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GigsMediaTask</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="title_task1">Task 1</string>
+    <string name="title_task2">Task 2</string>
+    <string name="title_task3">Task 3</string>
+    <string name="title_task4">Task 4</string>
+    <string name="hello_blank_fragment">Hello Fragment</string>
+    <string name="notification_channel_id">1234</string>
+    <string name="notification_channel_name">Download Notification</string>
+    <string name="notification_title">Downloading File ...</string>
+    <string name="cancel_download">Cancel</string>
+    <string name="enter_name">Enter Name ...</string>
+    <string name="enter_mobile">Enter Mobile ...</string>
+    <string name="save">Save</string>
+
+    <string-array name="book_names">
+        <item>Select Book Name</item>
+        <item>Book A</item>
+        <item>Book B</item>
+        <item>Book C</item>
+    </string-array>
+
+    <string name="name_format">Name: %s</string>
+    <string name="mobile_format">Mobile No.: %s</string>
+    <string name="book_format">Book Name: %s</string>
+    <string name="update">Update</string>
+
+</resources>
